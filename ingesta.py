@@ -4,6 +4,7 @@ import boto3
 
 conexion = mysql.connector.connect(
     host="18.213.155.42",
+    port = "8005",
     user="root",
     password="utec",
     database="tienda"
